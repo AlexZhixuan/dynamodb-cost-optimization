@@ -13,16 +13,11 @@ cd dynamodb-cost-optimization
 - Install AWS CLI: https://aws.amazon.com/cli/
 - Install Python 3 and boto3: `pip3 install boto3`
 
-### 3. Configure AWS Credentials
+### ⚠️3. Configure AWS Credentials (会变）
 1. Start AWS Learner Lab
 2. Click "AWS Details" → "Show"
 3. Copy credentials to `~/.aws/credentials`:
 ```
-[default]
-aws_access_key_id=YOUR_KEY
-aws_secret_access_key=YOUR_SECRET
-aws_session_token=YOUR_TOKEN
-region=us-east-1
 ```
 
 ### 4. Work with Terraform
