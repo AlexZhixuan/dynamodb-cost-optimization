@@ -21,10 +21,17 @@ dynamodb-cost-optimization/
 │   │       ├── main.tf
 │   │       ├── variables.tf
 │   │       └── outputs.tf
-│   └── environments/
-│       └── dev/                # Development environment
-│           └── main.tf
-└── README.md
+│   ├── environments/
+│   │   └── dev/                # Development environment
+│   │       └── main.tf
+│   └── backend/                # S3 backend setup
+│       └── main.tf
+├── scripts/                    # Testing and utility scripts
+│   └── README.md
+├── docs/                       # Project documentation
+│   └── README.md
+├── SETUP.md                    # Team setup guide
+└── README.md                   # Project overview
 ```
 
 ## Quick Start
