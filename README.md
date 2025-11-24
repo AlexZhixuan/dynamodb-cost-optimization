@@ -11,6 +11,8 @@ Reduce DynamoDB costs by 50-70% using Infrastructure as Code (Terraform) for e-c
 - [x] DynamoDB module implementation
 - [x] Development environment deployed
 - [x] GitHub repository setup
+- [x] Load testing scripts (Python)
+- [x]  Cost analysis framework
 
 ## Project Structure
 ```
